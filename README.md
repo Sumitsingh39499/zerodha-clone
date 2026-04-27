@@ -49,14 +49,20 @@ A full-stack stock trading SaaS inspired by Zerodha, built with the MERN stack. 
 
 ### Login Page
 Clean dark login UI with email/password authentication.
+<img width="1907" height="960" alt="image" src="https://github.com/user-attachments/assets/d20c7307-3ff8-4fcb-81ff-3e05543a0929" />
+
 
 ### Dashboard
 - Left panel: Watchlist with live ticking prices
 - Right panel: Portfolio holdings with P&L
 - Bottom: AI portfolio analysis button
+- <img width="1907" height="958" alt="image" src="https://github.com/user-attachments/assets/03897fae-a290-46d4-bd40-b022b52d0f94" />
+
 
 ### Trade Modal
 Buy/sell stocks with quantity input and instant portfolio update.
+<img width="1907" height="955" alt="image" src="https://github.com/user-attachments/assets/217bde32-514c-4fc3-8172-7e6a3744b977" />
+
 
 ---
 
