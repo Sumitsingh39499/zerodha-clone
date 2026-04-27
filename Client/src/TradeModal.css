@@ -1,0 +1,48 @@
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.modal-card {
+  background: #16213e;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 380px;
+  border: 1px solid #333;
+}
+
+.modal-card h2 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.modal-card input {
+  width: 100%;
+  background: #2a2a2a;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  outline: none;
+  margin-bottom: 1rem;
+  font-size: 16px;
+}
+
+.modal-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.modal-actions button {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}

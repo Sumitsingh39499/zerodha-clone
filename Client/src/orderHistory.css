@@ -1,0 +1,25 @@
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #1a1a1a;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.order-table th {
+    background: #2a2a2a;
+    color: #888;
+    padding: 14px 16px;
+    text-align: left;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.order-table td {
+    padding: 14px 16px;
+    color: #ccc;
+    border-bottom: 1px solid #2a2a2a;
+}
+
+.type-buy { color: #00d09c; font-weight: bold; }
+.type-sell { color: #e94560; font-weight: bold; }

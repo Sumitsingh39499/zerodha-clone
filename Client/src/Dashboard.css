@@ -1,0 +1,97 @@
+/* Dashboard Layout */
+.dashboard { display: flex; flex-direction: column; min-height: 100vh; background: #0f0f0f; }
+
+/* Navbar */
+.navbar { background: #1a1a1a; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #333; }
+.navbar h1 { color: #387ed1; font-size: 1.4rem; }
+.navbar-right { display: flex; align-items: center; gap: 1rem; }
+.balance { color: #00d09c; font-weight: bold; font-size: 1rem; }
+.btn-logout { background: #e94560; color: white; padding: 8px 16px; border-radius: 6px; border: none; cursor: pointer; }
+
+/* Main content */
+.dashboard-body { display: flex; gap: 1.5rem; padding: 1.5rem; flex: 1; }
+
+/* Watchlist */
+.watchlist-section { background: #1a1a1a; border-radius: 12px; padding: 1.5rem; width: 380px; border: 1px solid #333; }
+.watchlist-section h2 { color: white; margin-bottom: 1rem; }
+.search-bar { display: flex; gap: 0.5rem; margin-bottom: 1rem; }
+.search-bar input { flex: 1; background: #2a2a2a; color: white; padding: 10px; border-radius: 8px; border: 1px solid #444; outline: none; }
+.btn-add { background: #387ed1; color: white; padding: 10px 16px; border-radius: 8px; border: none; cursor: pointer; }
+
+/* Watchlist item */
+.watchlist-item { display: flex; justify-content: space-between; align-items: center; padding: 12px; background: #2a2a2a; border-radius: 8px; margin-bottom: 8px; }
+.stock-symbol { color: white; font-weight: bold; }
+.stock-price { color: #00d09c; font-weight: bold; }
+.item-actions { display: flex; gap: 6px; }
+.btn-buy { background: #00d09c; color: black; padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; font-weight: bold; }
+.btn-sell { background: #e94560; color: white; padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; font-weight: bold; }
+.btn-remove { background: #333; color: #888; padding: 6px 10px; border-radius: 6px; border: none; cursor: pointer; }
+
+/* Portfolio */
+.portfolio-section { flex: 1; background: #1a1a1a; border-radius: 12px; padding: 1.5rem; border: 1px solid #333; }
+.portfolio-section h2 { color: white; margin-bottom: 1rem; }
+.portfolio-item { display: flex; justify-content: space-between; align-items: center; padding: 12px; background: #2a2a2a; border-radius: 8px; margin-bottom: 8px; }
+.portfolio-item span { color: #ccc; }
+.pnl-positive { color: #00d09c; font-weight: bold; }
+.pnl-negative { color: #e94560; font-weight: bold; }
+
+/* Trade Modal */
+.modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.7); display: flex; align-items: center; justify-content: center; z-index: 100; }
+.modal-card { background: #1a1a1a; padding: 2rem; border-radius: 12px; width: 360px; border: 1px solid #333; }
+.modal-card h2 { color: white; margin-bottom: 1rem; }
+.modal-card input { width: 100%; background: #2a2a2a; color: white; padding: 12px; border-radius: 8px; border: 1px solid #444; outline: none; margin-bottom: 1rem; }
+.modal-actions { display: flex; gap: 1rem; }
+.modal-actions button { flex: 1; padding: 12px; border-radius: 8px; border: none; cursor: pointer; font-weight: bold; }
+
+
+.ai-section {
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    background: #1a1a1a;
+    border-radius: 12px;
+    border: 1px solid #333;
+}
+
+.btn-ai {
+    width: 100%;
+    background: linear-gradient(135deg, #387ed1, #a855f7);
+    color: white;
+    padding: 14px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.ai-result {
+    background: #2a2a2a;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 4px solid #387ed1;
+}
+
+.ai-result h3 {
+    color: #387ed1;
+    margin-bottom: 0.5rem;
+}
+
+.ai-result p {
+    color: #ccc;
+    line-height: 1.6;
+
+}
+
+.chart-section {
+  background: #1a1a1a;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1rem 1.5rem;
+  border: 1px solid #333;
+}
+
+.chart-section h3 {
+  color: white;
+  margin-bottom: 1rem;
+}
