@@ -19,8 +19,8 @@ api.interceptors.response.use(
         if (err.response?.status === 401) {
             try {
                 //call refresh endpoint:
-                const { data } = await axios.post(
-                    "http://localhost:5000/api/auth/refresh",
+               const { data } = await axios.post(
+    `${import.meta.env.VITE_API_URL || "http://localhost:5000/api"}/auth/refresh`,
                     {},
                     { withCredentials: true }
                 )
